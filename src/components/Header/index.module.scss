@@ -1,0 +1,59 @@
+.container {
+  border-bottom: 1px solid #D7D7D9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.12) !important;
+  position: sticky !important;
+}
+.appBar {
+  height: 50px;
+}
+.icon {
+  width: 22px;
+  height: 24px;
+}
+
+.drawerContainer {
+  .drawerWrapper {
+    width: 100%;
+  }
+  :global {
+    .MuiDrawer-paper {
+      width: 296px;
+      padding: 16px;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .MuiListItem-root {
+      padding: 12px 0;
+    }
+    .MuiListItemText-root {
+      .MuiTypography-root {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+      }
+    }
+    .MuiButtonBase-root {
+      padding: 0;
+    }
+    .MuiListItemIcon-root {
+      min-width: 32px;
+      height: 26px;
+      fill: #939599;
+      svg {
+        height: 26px;
+      }
+    }
+  }
+
+  .link {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+  }
+
+  .title {
+    padding-top: 8px;
+    padding-bottom: 12px;
+    font-weight: 500;
+  }
+}

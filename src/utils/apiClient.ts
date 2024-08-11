@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = `RIBXT3XYLI69PC0Q`;
+const API_KEY = process.env.REACT_APP_API_KEY || 'demo';
 
 const BASE_URL = `https://www.alphavantage.co/query?apikey=${API_KEY}`;
 
